@@ -1,0 +1,92 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  background-color: #204682;
+  border-bottom: 2px solid #152a4a;
+}
+
+.userHeader {
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  align-items: flex-start;
+}
+
+.obserVacation {
+  color: #000;
+  text-decoration: none !important;
+  font-size: 45px;
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+}
+
+.leftSide button {
+  display: inline-block;
+  width: 120px;
+  padding: 8px;
+  background-color: rgb(78,186,248,0.8);
+  border-radius: 20px;
+  /* box-shadow: 18px 18px 18px #888; */
+  font-weight: bolder;
+  color: #333;
+  margin: 3px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.leftSide h4 {
+  font-family: sans-serif;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.leftSide a {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bolder;
+  color: #000;
+} 
+
+.rightSide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.rightSide a {
+  padding: 0;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.rightSide a img {
+  width: 60px;
+}
+
+.rightSide button {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+.logOut {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 8px;
+  font-weight: bolder;
+  font-size: 14px;
+}

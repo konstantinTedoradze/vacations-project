@@ -1,0 +1,47 @@
+.register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.registerContainer {
+    margin-top: 20px;
+    margin-right: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 18px #888;
+    padding: 5px 30px;
+    height: 370px;
+    width: 300px;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.registerContainer input {
+   margin: 10px 3px;
+   padding: 10px;
+   margin: 8px auto;
+}
+
+.registerContainer label {
+    color: red;
+    margin-right: 13px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.registerContainer button {
+    display: block;
+    margin: 10px auto;
+    width: 100px;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: border;
+    font-size: 18px;
+    box-shadow: 10px 10px 18px #888;
+}
+
+.registerContainer a {
+    margin-left: 20px;
+}

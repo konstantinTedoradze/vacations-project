@@ -1,0 +1,23 @@
+.adminPage {
+    position: relative;
+    margin-top: 50px;
+}
+.editProfileButton{
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    background-color: rgb(78,186,248,0.8);
+    border-radius: 20px;
+    box-shadow: 18px 18px 18px #888;
+    font-weight: bolder;
+    color: #333;
+    margin: 10px;
+    position: absolute;
+    right: 20px;
+    top: 60px;
+}
+
+.vacation {
+    margin-top: 50px;
+}

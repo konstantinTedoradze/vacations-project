@@ -1,0 +1,65 @@
+.container {
+  margin: 30px 0;
+  text-align: center;
+}
+.profileContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.editProfile {
+  margin-top: 20px;
+  margin-right: 10px;
+  border: 3px solid black;
+  border-radius: 10px;
+  box-shadow: 10px 10px 18px #888;
+  padding: 5px 30px;
+  height: 400px;
+  width: 300px;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.editProfile input {
+  margin: 10px 3px;
+  padding: 10px;
+  margin: 8px auto;
+}
+
+.editProfile button {
+  width: 120px;
+  height: 50px;
+  cursor: pointer;
+  background-color: rgb(78, 186, 248, 0.8);
+  border-radius: 20px;
+  box-shadow: 18px 18px 18px #888;
+  font-weight: bolder;
+  color: #333;
+  margin: 10px;
+}
+
+.editProfile p {
+  font-size: 22px;
+  font-weight: bolder;
+}
+.successVisible {
+  visibility: visible;
+  color: green;
+  font-weight: bolder;
+  font-size: 24px;
+}
+.errorVisible {
+  visibility: visible;
+  color: red;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.successInvisible {
+  visibility: hidden;
+}
+.errorInvisible {
+  visibility: hidden;
+}
